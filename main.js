@@ -108,7 +108,7 @@ function createPerson(name, money, sleepMood, healthRate) {
   return person;
 }
 
-const user3 = createPerson("Mohamed", 200, "neutral", 70);
+const user3 = createPerson("Mohamad", 200, "neutral", 70);
 user3.sleep(7);
 user3.eat(1);
 user3.buy(4);
